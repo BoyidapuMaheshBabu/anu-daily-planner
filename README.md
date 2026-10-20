@@ -1,22 +1,25 @@
-# Anu — Daily Planner & Reminder
+# Anu — Daily Planner, Reminders & Alarm
 
-A personalized daily-planning and reminder app concept focused on helping a user organize everyday tasks, remember scheduled activities, and manage recurring routines.
+A personalized daily-planning app concept designed to help its intended user organize everyday tasks, remember scheduled activities, and set alarms for important times.
 
 > **Project status:** Planning and product definition. Implementation has not started.
 
 ## 🎯 Problem
 
-People sometimes forget activities they intended to complete at a particular time. Anu aims to make routine planning easier through a clear task workflow, useful reminders, and recurring schedules designed around a real user's needs.
+People sometimes forget activities they intended to complete at a particular time. Anu aims to make everyday planning easier through task management, useful reminders, recurring schedules, and an alarm-clock feature shaped around a real user's needs.
 
 ## ✨ Planned MVP
 
-The initial scope will be finalized during requirements gathering. Current candidates include:
+The scope will be confirmed during requirements gathering. Current planned capabilities include:
 
 - **Task management** — Create, edit, and delete tasks.
-- **Scheduled reminders** — Set a date and time for a task.
-- **Recurring tasks** — Repeat tasks daily or on selected days.
+- **Scheduled task reminders** — Receive a reminder about a task at its scheduled date and time.
+- **Alarm clock** — Set an alarm for an important time, with clear stop and snooze controls.
+- **Recurring schedules** — Repeat tasks and alarms on selected days as agreed in the requirements.
 - **Task completion** — Mark activities complete and distinguish completed from pending tasks.
-- **Reminder controls** — Define suitable snooze and notification preferences where supported.
+- **Reminder and alarm controls** — Manage schedules and preferences, subject to the chosen platform's permissions and behavior.
+
+**An alarm is not the same as a task reminder.** A task reminder is associated with an activity; an alarm is intended to alert the user at a chosen time, even when they are not actively using the app. The exact audible behavior, repeat options, snooze, stop controls, and platform constraints must be specified and tested before release.
 
 These are planned features, not claims about an implemented build.
 
@@ -40,7 +43,7 @@ See **[PROJECT_PHASES.md](./PROJECT_PHASES.md)** for the nine-phase plan and lin
 2. UI/UX Design & Pink Theme
 3. Technical Architecture & Data Model
 4. Core Task Management
-5. Scheduled Reminders & Recurring Tasks
+5. Alarms, Scheduled Reminders & Recurring Schedules
 6. Personalization & Experience Polish
 7. Testing & Reliability
 8. Real-User Review & Refinement
@@ -48,14 +51,14 @@ See **[PROJECT_PHASES.md](./PROJECT_PHASES.md)** for the nine-phase plan and lin
 
 ## 🛠️ Technology Stack
 
-The target platform and technology stack have not been finalized. They will be chosen after requirements are clarified, with particular attention to notification reliability, appropriate data storage, maintainability, and the intended user's device.
+The target platform and technology stack have not been finalized. They will be chosen after requirements are clarified, with particular attention to alarm and notification behavior, appropriate data storage, maintainability, and the intended user's device.
 
 ## 🧪 Engineering Approach
 
 - Validate requirements with the intended user.
 - Keep scope small and prioritize the essential workflow.
 - Track decisions and bugs in GitHub Issues.
-- Test reminder and recurrence behavior on a real device.
+- Test task reminders and alarm behavior on a real device, including relevant app/device lifecycle scenarios.
 - Document verified features, test results, and known limitations honestly.
 
 ## 🔒 Privacy
@@ -64,4 +67,4 @@ The repository is public. Do not publish private conversations, personal schedul
 
 ## 📌 Current Status
 
-This repository currently documents the plan and design direction. No app implementation, release, or reminder behavior is being claimed yet.
+This repository currently documents the plan and design direction. No app implementation, release, alarm delivery, or reminder behavior is being claimed yet.
