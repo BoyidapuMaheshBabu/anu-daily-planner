@@ -80,3 +80,12 @@ The repository is public. Do not publish private conversations, personal schedul
 ## 📌 Current Status
 
 This repository currently documents the plan and design direction. No app implementation, theme switching, release, alarm delivery, or reminder behavior is being claimed yet.
+
+---
+
+## 👨‍💻 Developer
+
+**Boyidapu Mahesh Babu**  
+Diploma in Computer Science Engineering student
+
+[GitHub Profile](https://github.com/BoyidapuMaheshBabu)
